@@ -1,0 +1,12 @@
+name: AthleticDon
+main: src.athle.don.oka.AthleticDon
+version: 1.0.0
+commands:
+  ath:
+    description: This is a demo command.
+    usage:  /<command> <check|reset>
+    permission: athleticdon.command
+    
+permissions:
+  athleticdon.command:
+    default: op
